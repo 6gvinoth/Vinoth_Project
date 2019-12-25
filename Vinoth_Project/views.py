@@ -11,7 +11,7 @@ from flask_bcrypt import Bcrypt
 import os
 
 app.config['MONGODB_SETTINGS'] = {
-	'db': 'flaskapp',
+	'db': 'Vinoth_Project',
 }
 
 db = MongoEngine(app)
@@ -29,7 +29,7 @@ def load_user(user_id):
 
 #User Model
 class User(db.Document):
-	__collectionname__= 'Vinoth_Project'
+	
 
 	username = db.StringField(max_length=50, required=True, unique=True)
 	email = db.StringField(max_length=100, required=True)

@@ -23,3 +23,14 @@ grouped together into modules.
 
 /Vinoth_Project/templates/	This is where you’ll put the Jinja2 templates for your app.
 
+
+git init
+
+git add .
+
+git commit -m "Login page design "
+
+git remote add origin git@github.com:6gvinoth/Vinoth_Project.git
+
+git push origin master
+
