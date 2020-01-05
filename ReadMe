@@ -34,3 +34,6 @@ git remote add origin git@github.com:6gvinoth/Vinoth_Project.git
 
 git push origin master
 
+google api console redirect uri  :
+
+http://localhost:5000/glogin/google/authorized
